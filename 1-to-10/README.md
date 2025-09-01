@@ -1,4 +1,8 @@
 ### 1. create pod nginx with name my nginx direct from command don't use yaml file 
+```bash
+k run my-nginx --image nginx 
+```
+![ Screenshot](https://github.com/abeerseada/k8s_lec2_task/blob/main/images/1.png)  
 
 <!-- 2- create pod nginx with name my nginx command and use Image nginx123  direct from command don't use yaml file
 
