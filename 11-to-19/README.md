@@ -21,7 +21,7 @@ spec:
 ```
 ---
 ### 12. find out the issue in the below Yaml (don't use AI)
-
+```
 apiVersion: apps/v1
 kind: deployment #error (Deployment)
 metadata:
@@ -43,9 +43,10 @@ spec:
         - sh
         - "-c"
         - echo Hello Kubernetes! && sleep 3600
+```
 ---
 ### 13. find out the issue in the below Yaml (don't use AI)
-
+```
 apiVersion: v1 #error (apiVersion: apps/v1)
 kind: Deployment
 metadata:
@@ -67,7 +68,7 @@ spec:
         - sh
         - "-c"
         - echo Hello Kubernetes! && sleep 3600
-
+```
 ### 14. what's command you use to know what Image name that running the deployment 
 ```bash
 kubectl describe deployment <deployment name> | grep Image:
